@@ -18,6 +18,7 @@ public class user_controller {
         token.Username = auth.Username;
         token.Age = 18;
 
+
         return tokenHandler.generateToken(token);
     }
 }

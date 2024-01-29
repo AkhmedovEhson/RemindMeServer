@@ -11,9 +11,7 @@ class Book_Controller
     @RequestMapping(value = "/books",method = RequestMethod.GET)
     public int Get()
     {
+        System.out.println("Got value !");
         return 1;
     }
-
-
-
 }
